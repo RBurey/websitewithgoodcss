@@ -133,4 +133,5 @@ hr{
 .hi{
     font-family: 'Montserrat', sans-serif;
     -webkit-text-stroke: yellow;
+    margin-bottom:0px;
 }
