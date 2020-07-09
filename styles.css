@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+h1{
+    font-size: 3rem;
+    margin-top: 0;
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 2rem;
+}
+@font-face {
+    font-family:"Saiyan-Sans";
+    src: url("Saiyan-Sans.ttf") format("truetype");
+  }
+h1,p,h2,h3{
+    font-family: Saiyan-Sans;
+    height: 50px;
+    -webkit-text-stroke: 1px black;
+    color: yellow;
+}
+p{
+    font-size: 1rem;
+}
+.title{
+    font-size: 2rem;
+}
+hr{
+    border-style:dotted;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-width: 5px;
+    width:20%;
+    border-color: purple;
+}
+
+
+.top{
+    background-color: purple;
+    position: relative;
+    height: 700px;
+    padding-top: 100px;
+ 
+
+}
+
+
+.noo1{
+    position: absolute;
+    left: 950px;
+    top: 90px;
+    height: 100px;
+    width: 100px;
+}
+.noo2{
+    position: absolute;
+    left: 450px;
+    top: 90px;
+    height: 100px;
+    width: 100px;
+}
+.bplanet{
+    position: absolute;
+    top:300px;
+    left:500px;
+    margin: 0 auto 0 auto;
+    height: 500px;
+    width: 500px;
+}
+.beerus{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+
+}
+.mid{
+    background-color: yellow;
+    text-align: center;
+    position: relative;
+    float: top;
+    padding-bottom: 50px;
+}
+.midd{
+    font-family: 'Montserrat', sans-serif;
+    color:purple;
+}
+.skill-row{
+    
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.anim{
+    
+    width: 70%;
+
+}
+.bottom{
+    padding-top: 10px;
+    border-width: 9px;
+    background-color: purple;
+}
+.btn {
+    -webkit-border-radius: 20;
+    -moz-border-radius: 20;
+    border-radius: 20px;
+    font-family: Georgia;
+    color: #FFFF00;
+    font-size: 31px;
+    background: 	#800080;
+    padding: 20px 30px 20px 30px;
+    border: solid 	#800080 2px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #9400D3;
+    text-decoration: none;
+  }
+.footer-link{
+    color: yellow;
+    font-size: 1.5em;
+    margin: 10px 10px;
+    text-decoration: none;
+}
+.footer-link:hover{
+    text-decoration: underline;
+}
+.hi{
+    font-family: 'Montserrat', sans-serif;
+    -webkit-text-stroke: yellow;
+}
